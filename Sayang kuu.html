@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Cinta</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffcccb;
+            font-family: Arial, sans-serif;
+        }
+        #message {
+            font-size: 2em;
+            color: #ff1493;
+            text-align: center;
+        }
+        .heart {
+            color: #ff1493;
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="message">
+        <p>Sayang, <span id="name">Gabrielle Keisha Putri Nabita</span>!</p>
+        <p>Kamu adalah <span class="heart">❤</span> di hatiku!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
